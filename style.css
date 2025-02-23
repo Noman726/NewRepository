@@ -1,0 +1,160 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About Me Section */
+#about {
+    background: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+    background: #e9ecef;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 2.5%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+/* Contact Section */
+#contact {
+    background: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Style for social media buttons */
+.social-buttons {
+    display: flex;
+    gap: 15px; /* space between buttons */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center; /* Align text and icon */
+    gap: 10px; /* Space between icon and text */
+}
+
+.social-button i {
+    font-size: 18px; /* Adjust icon size */
+}
+
+/* Color styling for each platform */
+.social-button.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-button.github {
+    background-color: #333; /* GitHub dark */
+}
+
+.social-button.instagram {
+    background-color: #E4405F; /* Instagram pinkish */
+}
+
+/* Hover effect for buttons */
+.social-button:hover {
+    opacity: 0.8;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
